@@ -9,5 +9,4 @@
 
 Загальне завдання: розробити статичні Web-сторінки додатку та перевірити коректне їх відображення на екранах різного розміру.
 
-
-
+Звіт https://docs.google.com/document/d/1AFS2Mm3I-wQ4-d8Eguam3OKxXzfwF5qyvELOuiC6NLk/edit?usp=sharing
