@@ -6,6 +6,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>About</title>
 </head>
+<style>
+    html {
+        height: 100%;
+    }
+    body {
+        height: 100%;
+    }
+    .global-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+    }
+    .card-title {
+      font-weight: 300;
+     }
+    .img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+     }
+</style>
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
@@ -34,10 +58,19 @@
   </div>
 
 </nav>
-<h1>About</h1>
-<p>This is a blogging website. Registered users may publish posts and comments.</p>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg">
+<div class="pt-5">
+  <div class="global-container">
+    <div class="card login-form">
+    <div class="card-body">
+        <h3 class="card-title text-center"> About </h3>
+        <div class="card-text">
+              <p>This is a blogging website. Registered users may publish posts and comments.</p>
+              <img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg">
+        </div>
+    </div>
+</div>
+</div>
 
 <div class="mt-5 p-4 bg-dark text-white text-center">
   <p>Footer</p>
